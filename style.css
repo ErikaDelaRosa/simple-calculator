@@ -1,0 +1,9 @@
+body {
+    background-color:#98F8DE;
+    border: 3px black solid;
+    padding: 10px;
+    margin:15px;
+}
+.container {
+    background-color: rgba(189, 111, 245, 0.466);
+}
