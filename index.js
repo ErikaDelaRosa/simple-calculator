@@ -38,4 +38,32 @@ function div () {
 };
 
 */
+// this is for the last "calculadora"
+function calc()
+{
+    var n1 = parseFloat(document.getElementById('n1').value);
+    var n2 = parseFloat(document.getElementById('n2').value);
+    
+    var oper = document.getElementById('operators').value;
+    
+    if(oper === '+')
+    {
+        document.getElementById('resultado').value = n1+n2;
+    }
+    
+    if(oper === '-')
+    {
+        document.getElementById('resultado').value = n1-n2;
+    }
+    
+    if(oper === '/')
+    {
+        document.getElementById('resultado').value = n1/n2;
+    }
+    
+    if(oper === 'X')
+    {
+        document.getElementById('resultado').value = n1*n2;
+    }
+}
 
