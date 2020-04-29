@@ -7,10 +7,10 @@
     <title>Simple calculator</title>
 </head>
 <body>
-    <h1>Calculator</h1>
-    <form action="script.js">
+   
+   <!-- <form action="script.js">-->
      
-    <div class="container">
+   <!-- <div class="container">
         <input type="text" name="num1" id="firstNumber"/>
         <span>+</span>
         <input type="text" name="num2" id="secondNumber" />
@@ -18,6 +18,28 @@
         <input type="text" name="sum" readonly id="sumResult" />
       </div>
       <div class="result"></div>
-</body>
+-->
+
+<!--calculation only between two numbers-->
+     <div class="container2"> 
+         <h1>Calculator</h1>
+        <form action="script.js">
+         <form name="formCalculator">
+         Insert number <input type="text" name="num1" id="one">
+         <br>
+         Insert number <input type="text" name="num2" id="two">
+         <br>
+         Your result is: <input type="text" name="result" id="answer">
+         <br>
+     <!--    <input type="button" value="Calculate" onclick="sumValue()">-->
+     <button onclick="add()" id="add">Sum</button>
+     <button onclick="sub()" id="sub">Sub</button>
+     <button onclick="mul()" id="mul">Mult</button>
+     <button onclick="div()" id="div">Div</button>
+         </form>
+     </div>
+
+
 <script src="./index.js"></script>
+</body>
 </html>
