@@ -9,16 +9,20 @@ function sumValue () {
 };
 */
 function add () {
-    var a = document.getElementById("one").value;
-    var b = document.getElementsById("two").value;
-    var c = a + b;
-    document.getElementById("answer").value=c;
+    let a = Number(document.getElementById("one").value);
+    console.log(a);
+    let b = Number(document.getElementsById("two").value);
+    console.log(b);
+    let c = a + b;
+    let result = document.getElementById("answer").value=c;
+    console.log(c);
 };
-function sub () {
+
+/*function sub () {
     var a = document.getElementById("one").value;
     var b = document.getElementsById("two").value;
     var c= a - b;
-    document.getElementById("answer").value=c;
+    document.getElementById("answer").value;
 };
 function mul () {
     var a = document.getElementById("one").value;
@@ -33,4 +37,5 @@ function div () {
     document.getElementById("answer").value=c;
 };
 
+*/
 
