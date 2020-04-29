@@ -4,3 +4,6 @@ Simple calculator the user will be able to input two numbers for which they woul
 Basic Addition
 Display the result of the calculation to the user immediately.
 Bounce  include other Mathematical  Operations, the user can choose the operation from a select list (+ * - / % )
+
+1.I have created a first version only with two empty fields and four buttons for different actions (sum, remove, multiply and divide). For some reason, it doesn work even if the js contains all the functions.
+
