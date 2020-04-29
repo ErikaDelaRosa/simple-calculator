@@ -23,7 +23,7 @@
 <!--calculation only between two numbers-->
      <div class="container2"> 
          <h1>Calculator</h1>
-        <form action="script.js">
+      <!-- <form action="script.js">--> 
          <form name="formCalculator">
          Insert number <input type="text" name="num1" id="one">
          <br>
@@ -32,12 +32,40 @@
          Your result is: <input type="text" name="result" id="answer">
          <br>
      <!--    <input type="button" value="Calculate" onclick="sumValue()">-->
-     <button onclick="add()" id="add">Sum</button>
-     <button onclick="sub()" id="sub">Sub</button>
-     <button onclick="mul()" id="mul">Mult</button>
-     <button onclick="div()" id="div">Div</button>
+     <button onclick="add()" id="add">&#43</button>
+     <button onclick="sub()" id="sub">&#8722</button>
+     <button onclick="mul()" id="mul">&#215</button>
+     <button onclick="div()" id="div">&#247</button>
          </form>
      </div>
+
+     <div class="container3">
+    <div id="calculatorV2">
+        <div id="resultV2">
+            <div id="history">
+               <p id="history-value"></p> 
+            </div>
+            <div id="output">
+                <p id="output-value"></p>
+            </div>
+        </div>
+        <div id="keyboard">
+            <button class="operator" id="clear">C</button>
+            <button class="operator" id="backspace">CE</button>
+            <button class="operator" id="%">%</button>
+            <button class="operator" id="/">&#247</button>
+            <button class="operator" id="clear">C</button>
+
+        </div>
+    </div>
+     </div>
+
+
+
+
+
+
+
 
 
 <script src="./index.js"></script>
