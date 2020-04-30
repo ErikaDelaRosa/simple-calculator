@@ -52,8 +52,8 @@ body {
 }
 #calculatorV2 {
     width: 20rem;
-    height: 20rem;
-    background-color: lawngreen;
+    height: 33rem;
+    background-image: url(./cal.jpeg);
     margin: 0 auto;
     position: relative;
     top: 20px;
@@ -91,14 +91,21 @@ body {
 }
 
 .number, .empty {
-    background-color: lawngreen;
+    background-color: rgb(228, 151, 164);
+}
+.number, .operator {
+    cursor: pointer;
 }
 
 .calculadora {
     border: 3px black solid;
-    background-color: rgba(230, 30, 186, 0.822);
+    background-image: url(./foto.jpeg);
+    background-size: cover;
+    opacity: 0.8;
     margin:5rem; 
     padding:2rem;
-    width: 25rem;
-    height: 15rem;
+    width: 20rem;
+    height: 12rem;
+    color: rgb(241, 35, 224);
+    font-size: 20x;
 }
