@@ -149,3 +149,4 @@ function calc()
         document.getElementById('resultado').value = n1*n2;
     }
 }
+
