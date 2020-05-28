@@ -1,6 +1,12 @@
 body {
     background-color:#98F8DE;
+    margin:3rem;
+    padding:3rem;
     border: 3px black solid;
+    display:flex;
+    align-content:space-between;
+    justify-content: space-evenly;
+ 
 }
 .container2 {
     background-color: rgba(189, 111, 245, 0.466);
@@ -46,20 +52,23 @@ body {
 }
 
 .container3 {
-    width: 30rem;
-    height: 35rem;
-    border: 3px black solid;
+    width: 550px;
+	height: 550px;
+	background-color: #f08080;
+	margin: 20px auto;	
 }
 #calculatorV2 {
-    width: 20rem;
-    height: 33rem;
-    background-image: url(./cal.jpeg);
-    margin: 0 auto;
-    position: relative;
-    top: 20px;
+    width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#result {
+#resultV2 {
     height: 120px;
 }
 #keyboard {
@@ -91,21 +100,46 @@ body {
 }
 
 .number, .empty {
-    background-color: rgb(228, 151, 164);
-}
-.number, .operator {
-    cursor: pointer;
+    background-color: rgb(92, 30, 143);
 }
 
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}
+
+
+/* last calculator trial */
 .calculadora {
     border: 3px black solid;
-    background-image: url(./foto.jpeg);
-    background-size: cover;
-    opacity: 0.8;
+    background-color: rgba(128, 193, 204, 0.822);
     margin:5rem; 
     padding:2rem;
     width: 20rem;
     height: 12rem;
-    color: rgb(241, 35, 224);
-    font-size: 20x;
 }
