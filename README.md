@@ -1,9 +1,7 @@
 # simple-calculator
 
-Simple calculator the user will be able to input two numbers for which they would like to do two types of calculations:
-Basic Addition
-Display the result of the calculation to the user immediately.
-Bounce  include other Mathematical  Operations, the user can choose the operation from a select list (+ * - / % )
+This is an application that uses HTML, CSS and JavaScript.
 
-1.I have created a first version only with two empty fields and four buttons for different actions (sum, remove, multiply and divide). For some reason, it doesn't work even if the js contains all the functions.
+Using this simple calculator the user can make the sum, sub, divide or multiply numbers.
 
+I have created two versions, in one the user can choose the numbers in the display, in the other one can enter the numbers directly. 
